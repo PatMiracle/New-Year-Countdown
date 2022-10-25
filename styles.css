@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f1f1f144;
+    font-family: 'Franklin Gothic book';
+}
+
+section{
+    width: 90%;
+    padding: 3rem 0;
+    margin: auto;
+    display: grid;
+    max-width: 900px;
+    gap: 1rem;
+}
+
+img {
+    width: 100%;
+}
+
+.countdown-info>h3 {
+    text-transform: uppercase;
+    color: #366979;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    margin: 0.3rem 0;
+}
+
+.countdown-info>h4 {
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+
+.countdown-info>p {
+    padding: 1.4rem 0;
+    color: rgba(0, 0, 0, .7);
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.deadline>div {
+    display: inline-block;
+    background-color: #274149;
+    color: #fff;
+    width: 5rem;
+    padding: 0.3rem;
+    margin-bottom: 0.2rem;
+    text-align: center;
+    font-family: 'Yu Gothic UI';
+    letter-spacing: 2px;
+}
+
+.deadline>div h4 {
+    font-size: 2rem;
+}
+
+.deadline span {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+.expired {
+    color: rgba(0, 0, 0, .7);
+    font-size: 0.95rem;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+@media screen and (min-width: 768px) {
+    section {
+        grid-template-columns: 1fr 1fr;
+        width: 95%;
+        padding: 5rem 0;
+        align-items: center;
+    }
+}
