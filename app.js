@@ -3,7 +3,7 @@ const deadline = document.querySelector(".deadline")
 const timeRemaining = document.querySelectorAll("div h4")
 
 
-const futureDate = new Date(2023,0, 1, 0, 0)
+const futureDate = new Date(2024,0, 1, 0, 0)
 const formatDate = moment(futureDate).format("MMMM Do, YYYY")
 newYear.textContent = `This countdown timer ends on ${formatDate}`
 
